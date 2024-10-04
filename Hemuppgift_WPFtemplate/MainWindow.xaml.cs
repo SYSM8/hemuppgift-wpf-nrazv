@@ -12,5 +12,26 @@ namespace Hemuppgift_WPFtemplate
         {
             InitializeComponent();
         }
+
+        private void OpenGridWindow(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpenStackPanelWindow(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpenWrapPanelWindow(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpenDockPanelWindow(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }
