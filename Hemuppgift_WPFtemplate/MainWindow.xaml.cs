@@ -27,7 +27,7 @@ namespace Hemuppgift_WPFtemplate
 
         private void OpenWrapPanelWindow(object sender, RoutedEventArgs e)
         {
-
+            new WrapPanelWindow().Show();
         }
 
         private void OpenDockPanelWindow(object sender, RoutedEventArgs e)
