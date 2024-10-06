@@ -1,0 +1,25 @@
+﻿<Window x:Class="Hemuppgift_WPFtemplate.Windows.WrapPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hemuppgift_WPFtemplate.Windows"
+        mc:Ignorable="d"
+        Title="WrapPanelWindow" Height="450" Width="800">
+    <WrapPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <RadioButton IsChecked="True"  x:Name="Horizontal"  Checked="Horizontal_Checked">Horizontal</RadioButton>
+            <RadioButton x:Name="Vertical" Checked="Vertical_Checked">Vertical</RadioButton>
+        </StackPanel>
+        <WrapPanel x:Name="ElipseWrapPanel" Orientation="Horizontal" >
+            <Ellipse Width="100" Height="100" Fill="Red" Margin="5"/>
+            <Ellipse Width="90" Height="90" Fill="Orange" Margin="5"/>
+            <Ellipse Width="80" Height="80" Fill="Yellow" Margin="5"/>
+            <Ellipse Width="70" Height="70" Fill="LightGreen" Margin="5"/>
+            <Ellipse Width="60" Height="60" Fill="Green" Margin="5"/>
+            <Ellipse Width="50" Height="50" Fill="LightBlue" Margin="5"/>
+            <Ellipse Width="40" Height="40" Fill="Blue" Margin="5"/>
+            <Ellipse Width="30" Height="30" Fill="Black" Margin="5"/>
+        </WrapPanel>
+    </WrapPanel>
+</Window>
