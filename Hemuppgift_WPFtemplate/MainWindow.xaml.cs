@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Hemuppgift_WPFtemplate.Windows;
+using System.Windows;
 
 namespace Hemuppgift_WPFtemplate
 {
@@ -15,11 +16,12 @@ namespace Hemuppgift_WPFtemplate
 
         private void OpenGridWindow(object sender, RoutedEventArgs e)
         {
-
+            new GridWindow().Show();
         }
 
         private void OpenStackPanelWindow(object sender, RoutedEventArgs e)
         {
+            new StackPanelWindow().Show();
 
         }
 
