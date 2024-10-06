@@ -32,6 +32,7 @@ namespace Hemuppgift_WPFtemplate
 
         private void OpenDockPanelWindow(object sender, RoutedEventArgs e)
         {
+            new DockPanelWindow().Show();
 
         }
 
